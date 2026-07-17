@@ -1,0 +1,9 @@
+{
+    "Name": "Transport Demo",
+    "Author": "Beennnn",
+    "Version": "1.0.0",
+    "Description": "A tiny 3-icon transport palette — proof that the sdicons pipeline goes from SVG source to a Marketplace-ready pack.",
+    "Icon": "icon.svg",
+    "URL": "https://github.com/Beennnn/stream-deck-icons",
+    "Licence": "license.txt"
+}
