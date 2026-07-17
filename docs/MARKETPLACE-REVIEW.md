@@ -162,17 +162,14 @@ flow mirrors it):
   while a version is pending; it's not part of the Create-version modal.
 - **Release-notes editor rejects some Unicode** (em-dashes dropped silently) — use
   ASCII hyphens and confirm the char counter moved.
-- **Version on resubmission depends on whether the product was ever published:**
-  - **Never published** (a first submission that got rejected): Maker Console's
-    "Revise" replaces that version in place and requires the SAME number it
-    rejected (a rejected 1.43 resubmits as 1.43, not 1.44) — bumping triggers
-    *"revised version does not match existing version"*. Keep the number.
-  - **Already published** (a live product whose new version got rejected): Maker
-    requires a version **strictly higher** than the existing one — resubmitting
-    the same or lower triggers *"X is not higher than Y"*. Bump it (e.g. the
-    rejected 1.2.0 resubmits as 1.2.1).
-  In both cases the manifest `Version` must match what Maker expects; verify the
-  product's published state before choosing.
+- **Resubmit via "Create version" with a BUMPED number — not "Revise".**
+  Empirically (Stage Keys 1.2.0->1.2.1, Wi-Fi 1.43->1.44.2), Maker Console's
+  **Create version** accepts a higher version and clears the resubmission. The
+  **Revise** button instead replaces the rejected version in place and demands
+  the EXACT same number, which throws *"revised version does not match existing
+  version"* (or *"X is not higher than Y"* on a published product). Simplest
+  reliable path: bump the manifest `Version` (`x.y.z.b`), repackage, and use
+  **Create version**. Keep the package's manifest version = the number you enter.
 
 ---
 
