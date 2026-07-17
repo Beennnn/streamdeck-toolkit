@@ -1,0 +1,5 @@
+{
+    "power":  { "name": "Power",  "tags": ["control", "power", "transport"] },
+    "play":   { "name": "Play",   "tags": ["control", "playback", "transport"] },
+    "record": { "name": "Record", "tags": ["control", "record", "transport"] }
+}

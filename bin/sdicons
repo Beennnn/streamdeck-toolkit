@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+"""Thin entrypoint: run the toolkit without installing it.
+
+Usage: bin/sdicons <command> ...   (see `bin/sdicons --help`)
+"""
+import sys
+from pathlib import Path
+
+# Make the repo root importable so `sdicons` package resolves when run
+# straight from a clone (no pip install needed).
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from sdicons.cli import main  # noqa: E402
+
+if __name__ == "__main__":
+    main()

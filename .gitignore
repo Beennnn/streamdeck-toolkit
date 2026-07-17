@@ -1,0 +1,15 @@
+# Generated pack outputs — reproducible via `sdicons build`
+dist/
+examples/demo-pack/icons/
+examples/demo-pack/icons.json
+examples/demo-pack/contact-sheet.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
+.coverage
+.pytest_cache/
