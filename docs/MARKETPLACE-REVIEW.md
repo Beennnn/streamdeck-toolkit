@@ -162,13 +162,17 @@ flow mirrors it):
   while a version is pending; it's not part of the Create-version modal.
 - **Release-notes editor rejects some Unicode** (em-dashes dropped silently) — use
   ASCII hyphens and confirm the char counter moved.
-- **Do NOT bump the version when revising a REJECTED (never-published) submission.**
-  Maker Console's "Revise" replaces that version in place and requires the
-  uploaded package to carry the SAME version number it rejected (e.g. a rejected
-  1.43 must be resubmitted as 1.43, not 1.44) — otherwise you get
-  *"revised version does not match existing version"*. Keep the number, ship the
-  fixes under it. Only bump the manifest `Version` (`x.y.z.b`) for a genuinely NEW
-  version AFTER something is already published.
+- **Version on resubmission depends on whether the product was ever published:**
+  - **Never published** (a first submission that got rejected): Maker Console's
+    "Revise" replaces that version in place and requires the SAME number it
+    rejected (a rejected 1.43 resubmits as 1.43, not 1.44) — bumping triggers
+    *"revised version does not match existing version"*. Keep the number.
+  - **Already published** (a live product whose new version got rejected): Maker
+    requires a version **strictly higher** than the existing one — resubmitting
+    the same or lower triggers *"X is not higher than Y"*. Bump it (e.g. the
+    rejected 1.2.0 resubmits as 1.2.1).
+  In both cases the manifest `Version` must match what Maker expects; verify the
+  product's published state before choosing.
 
 ---
 
