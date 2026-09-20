@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="streamdeck-toolkit" width="100%"></p>
+
 # streamdeck-toolkit
 
 **Two command-line tools that build, verify and package Elgato Stream Deck icon packs and plugins — so a Marketplace review doesn't bounce them back.**
