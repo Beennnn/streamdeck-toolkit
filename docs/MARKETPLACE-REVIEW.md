@@ -41,8 +41,8 @@ Three distinct classes of problem, each with a durable fix below:
 3. **Weak gallery + a demo video is expected** → §3.
 
 Fixes shipped: white icons + Bluetooth-reference purge in
-[wifi-picker](https://github.com/Beennnn/streamdeck-wifi-picker) (v1.44) and white
-icons in [bluetooth-switcher](https://github.com/Beennnn/streamdeck-bluetooth-switcher)
+[wifi-picker](https://github.com/Beennnn/streamdeck-plugin-connection-wifi) (v1.44) and white
+icons in [bluetooth-switcher](https://github.com/Beennnn/streamdeck-plugin-connection-bluetooth)
 (v1.1.2). Gallery re-shoot + demo video + resubmit remain manual.
 
 ---
