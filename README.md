@@ -165,17 +165,17 @@ fixes the export.
 
 ## Packs built with it
 
-- **[Stage Keys](https://github.com/Beennnn/streamdeck-stage-keys)** — 226
+- **[Stage Keys](https://github.com/Beennnn/streamdeck-icons-stage-keys)** — 226
   sound-select icons for the live keyboardist (92 instruments + 21 Dual/Split
   combos, each static + animated); the complete General MIDI / XP set plus
   modern synth categories. On the Elgato Marketplace.
-- **[WLED icons](https://github.com/Beennnn/streamdeck-wled-icons)** — the WLED
+- **[WLED icons](https://github.com/Beennnn/streamdeck-icons-wled)** — the WLED
   visual set as two packs: **216 animated effect GIFs** (the first pack to
   exercise the animated pipeline) + **111 static** palette/control icons.
-- **[Stage Traxx Controls](https://github.com/Beennnn/streamdeck-stagetraxx-icons)**
+- **[Stage Traxx Controls](https://github.com/Beennnn/streamdeck-icons-stagetraxx)**
   — 235 icons (47 Stage Traxx 4 remote-control actions × 5 styles), plus
   generated Stream Deck XL profiles.
-- **[Radio Button Selection Frames](https://github.com/Beennnn/streamdeck-radio-frames)**
+- **[Radio Button Selection Frames](https://github.com/Beennnn/streamdeck-icons-radio-frames)**
   — 76 transparent-centre selection overlays (19 colours × 4 styles) marking the
   active key in a radio group.
 
