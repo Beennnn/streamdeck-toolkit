@@ -19,7 +19,7 @@ Open-source plugins these notes come from — read them alongside for real code:
 - **[Bluetooth Switcher](https://github.com/Beennnn/streamdeck-plugin-connection-bluetooth)** —
   connect / disconnect paired Bluetooth devices from a key or dial; **bundles a
   universal `blueutil`** — the native-helper + quarantine pattern in practice.
-- **[MIDI Note Display](https://github.com/Beennnn/streamdeck-script-midi-note)** —
+- **[MIDI Note Display](https://github.com/Beennnn/streamdeck-midi-script-note)** —
   a Stream Deck+ dial showing a MIDI value as a note name + mini piano — the
   custom **dial-layout** technique in the wild.
 
